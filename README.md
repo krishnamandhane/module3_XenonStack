@@ -62,7 +62,7 @@ Task_ Level1 Linux Module
     .TP
     .BR \-\-last-modified ", " \-m		print " " last " " modified " " date " " and " " time " " of " " the " " file
     .SH BUGS
-    No known bugs. (However reach at sksalmanhaider@outlook.com in case of any errors and typos.)
+    No known bugs. (However reach at krishnamandhane08@gmail.com in case of any errors and typos.)
     .SH AUTHOR
     Krishna Mandhane
     ```
@@ -124,7 +124,7 @@ Task_ Level1 Linux Module
       ```
       getVersionInfo () {
 	     echo "internsctl 0.1.0"
-	     echo "Copyright (C) 2023 XenonStack Software Foundation, Inc."
+	     echo "Copyright (C) 2023 XenonStack "
 	     printf "\nWritten by Krishna Mandhane.\n"
       }
       ```
@@ -176,7 +176,7 @@ Task_ Level1 Linux Module
 		sudo adduser $3
       }
       ```
-   * Follwing is how we create an user called "xyz" on our server through `internsctl user create xyz`.\
+   * Follwing is how we create an user called "xenonstack" on our server through `internsctl user create xenonstack`.\
    \
      <img src = "/linux_image/internsctl_user_create_xenonstack.png">
 
@@ -245,7 +245,7 @@ Task_ Level1 Linux Module
 	 fi	
      }
      ```
-   * Follwing is the output of `internsctl file getinfo abc.txt`, showing information about a file `abc.txt`.\
+   * Follwing is the output of `internsctl file getinfo hello.txt`, showing information about a file `hello.txt`.\
    \
      <img src = "/linux_image/last.png">
 
