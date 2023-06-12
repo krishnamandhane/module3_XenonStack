@@ -9,7 +9,7 @@ Task_ Level1 Linux Module
   * Now using `cd` command move into to the standrad location in filesystem : `/usr/share/man`, where manual pages of all the commands are normally stored in **nroff(1)** format.
   * Then run `ls` command to list all the directories in that location.\
   \
-    <img src = "/images/img_1.png">
+    <img src = "/linux_image/man.png">
   
     Here in this location, each man page is categorized in a specific section (directory), different directories (e.g., man1, man2, man3...) store man pages for different category of commands. See below -
    
@@ -34,12 +34,12 @@ Task_ Level1 Linux Module
     >
     > In this case it will be : **touch internsctl.1**
     
-    <img src = "/images/img_2.png">
+    
 - *Step 3 :*    
   * Now run `nano internsctl.1` to edit the source file in nano text editor. Copy and paste the following script into the source file or write it from yourself and save it.
     ```
     .\" Manual (man) page of internsctl
-    .TH internsctl 1 "28 December 2020" "0.1.0" "Custom Command"
+    .TH internsctl 1 "10 june 2023" "0.1.0" "Custom Command"
     .SH NAME
     internsctl
     .SH SYNOPSIS
@@ -64,7 +64,7 @@ Task_ Level1 Linux Module
     .SH BUGS
     No known bugs. (However reach at sksalmanhaider@outlook.com in case of any errors and typos.)
     .SH AUTHOR
-    Sk Salman Haider
+    Krishna Mandhane
     ```
     ➡️ Refer to this link for man page syntax : https://unix.stackexchange.com/questions/90759/where-should-i-install-manual-pages-in-user-directory
     
@@ -72,7 +72,7 @@ Task_ Level1 Linux Module
   * Now it's done 🎉🔥🤩.
   * Run `man internsctl` from terminal to check the manual page of the `internsctl`. Below is the snapshot of the same -\
   \
-    <img src = "/images/img_3.png">
+    <img src = "/linux_image/internsctl-man.png">
 
 #
 
@@ -113,7 +113,7 @@ Task_ Level1 Linux Module
       ```
    * Follwing is the output of `internsctl --help`.\
    \
-     <img src = "/images/--help.png">
+     <img src = "/linux_image/help.png">
    
 #
     
@@ -130,7 +130,7 @@ Task_ Level1 Linux Module
       ```
    * Follwing is the output of `internsctl --version`.\
    \
-     <img src = "/images/--version.png">  
+     <img src = "/linux_image/version.png">  
      
 #
 
@@ -147,7 +147,7 @@ Task_ Level1 Linux Module
       ```
    * Follwing is the output of `internsctl cpu getinfo`.\
    \
-     <img src = "/images/img_6.png">
+     <img src = "/linux_image/cpu_getinfo.png">
      
      #
      
@@ -162,7 +162,7 @@ Task_ Level1 Linux Module
       ```
    * Follwing is the output of `internsctl memory getinfo`.\
    \
-     <img src = "/images/img_7.png">
+     <img src = "/linux_image/internsctl_memory_getinfo.png">
      
 #
 
@@ -178,7 +178,7 @@ Task_ Level1 Linux Module
       ```
    * Follwing is how we create an user called "xyz" on our server through `internsctl user create xyz`.\
    \
-     <img src = "/images/img_8.png">
+     <img src = "/linux_image/internsctl_user_create_xenonstack.png">
 
 #
 
@@ -193,7 +193,7 @@ Task_ Level1 Linux Module
       ```
    * Follwing is the output of `internsctl user list`, listing all the regular users present on the server.\
    \
-     <img src = "/images/img_9.png">
+     <img src = "/linux_image/user_info_2.png">
      
 
 ⚡ **3. Creating function to list all the users with sudo permissions on the server through the command `internsctl user list --sudo-only`**
@@ -207,7 +207,7 @@ Task_ Level1 Linux Module
       ```
    * Follwing is the output of `internsctl user list --sudo-only`, listing all the users with sudo permissions on the server.\
    \
-     <img src = "/images/img_10.png">
+     <img src = "/linux_image/internsctl_user_list--sudo-only.png">
 
 #
 
@@ -247,7 +247,7 @@ Task_ Level1 Linux Module
      ```
    * Follwing is the output of `internsctl file getinfo abc.txt`, showing information about a file `abc.txt`.\
    \
-     <img src = "/images/img_11.png">
+     <img src = "/linux_image/last.png">
 
 #
 
