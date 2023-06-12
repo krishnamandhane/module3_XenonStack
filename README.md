@@ -66,7 +66,7 @@ Task_ Level1 Linux Module
     .SH AUTHOR
     Krishna Mandhane
     ```
-    ➡️ Refer to this link for man page syntax : https://unix.stackexchange.com/questions/90759/where-should-i-install-manual-pages-in-user-directory
+ 
     
 - *Step 4 :*
   
