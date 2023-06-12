@@ -9,7 +9,7 @@ Task_ Level1 Linux Module
   * Now using `cd` command move into to the standrad location in filesystem : `/usr/share/man`, where manual pages of all the commands are normally stored in **nroff(1)** format.
   * Then run `ls` command to list all the directories in that location.\
   \
-    <img src = "/images/img_1.png">
+    <img src = "/linux_image/man.png">
   
     Here in this location, each man page is categorized in a specific section (directory), different directories (e.g., man1, man2, man3...) store man pages for different category of commands. See below -
    
