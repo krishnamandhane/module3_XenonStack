@@ -39,7 +39,7 @@ Task_ Level1 Linux Module
   * Now run `nano internsctl.1` to edit the source file in nano text editor. Copy and paste the following script into the source file or write it from yourself and save it.
     ```
     .\" Manual (man) page of internsctl
-    .TH internsctl 1 "28 December 2020" "0.1.0" "Custom Command"
+    .TH internsctl 1 "10 june 2023" "0.1.0" "Custom Command"
     .SH NAME
     internsctl
     .SH SYNOPSIS
@@ -62,9 +62,9 @@ Task_ Level1 Linux Module
     .TP
     .BR \-\-last-modified ", " \-m		print " " last " " modified " " date " " and " " time " " of " " the " " file
     .SH BUGS
-    No known bugs. (However reach at sksalmanhaider@outlook.com in case of any errors and typos.)
+    No known bugs. (However reach at krishnamandhane08@gmail.com in case of any errors and typos.)
     .SH AUTHOR
-    Sk Salman Haider
+   Krishna Mandhane
     ```
     ➡️ Refer to this link for man page syntax : https://unix.stackexchange.com/questions/90759/where-should-i-install-manual-pages-in-user-directory
     
@@ -72,7 +72,7 @@ Task_ Level1 Linux Module
   * Now it's done 🎉🔥🤩.
   * Run `man internsctl` from terminal to check the manual page of the `internsctl`. Below is the snapshot of the same -\
   \
-    <img src = "/images/img_3.png">
+<img src = "/linux_image/internsctl-man.png">
 
 #
 
