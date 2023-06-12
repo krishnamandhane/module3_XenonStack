@@ -113,7 +113,7 @@ Task_ Level1 Linux Module
       ```
    * Follwing is the output of `internsctl --help`.\
    \
-     <img src = "/images/img_4.png">
+     <img src = "/images/--help.png">
    
 #
     
@@ -130,7 +130,7 @@ Task_ Level1 Linux Module
       ```
    * Follwing is the output of `internsctl --version`.\
    \
-     <img src = "/images/img_5.png">  
+     <img src = "/images/--version.png">  
      
 #
 
