@@ -3,7 +3,7 @@ Task_ Level1 Linux Module
 
 ## Creating and Configuring the Custom Command : `internsctl`
 ### Section A
-⚡ **1. Creating manual (man) page**
+ ## 1. Creating manual (man) page**
 - *Step 1 :* 
   * Login as a root user by running the command `sudo -i` (If it asks for the administrative password, Enter it).
   * Now using `cd` command move into to the standrad location in filesystem : `/usr/share/man`, where manual pages of all the commands are normally stored in **nroff(1)** format.
@@ -69,14 +69,14 @@ Task_ Level1 Linux Module
     ➡️ Refer to this link for man page syntax : https://unix.stackexchange.com/questions/90759/where-should-i-install-manual-pages-in-user-directory
     
 - *Step 4 :*
-  * Now it's done 🎉🔥🤩.
+  
   * Run `man internsctl` from terminal to check the manual page of the `internsctl`. Below is the snapshot of the same -\
   \
     <img src = "/linux_image/internsctl-man.png">
 
 #
 
-⚡ **2. Creating function to display the help text through the command `internsctl --help`** 
+## 2. Creating function to display the help text through the command `internsctl --help`** 
 
    * Create a file `internsctl` in `/bin` directory.
    * Copy and paste the following code into that file and save it.
@@ -117,7 +117,7 @@ Task_ Level1 Linux Module
    
 #
     
-⚡ **3. Creating function to display version of the command through `internsctl --version`**
+## 3. Creating function to display version of the command through `internsctl --version`**
 
    * Add the following code into the file `internsctl` present in `/bin` folder and save it.
       
@@ -136,7 +136,7 @@ Task_ Level1 Linux Module
 
 ### Section B
 #### Part 1 | Level Easy 
-⚡ **1. Creating function to get cpu information of server through the command `internsctl cpu getinfo`**
+## 1. Creating function to get cpu information of server through the command `internsctl cpu getinfo`**
 
    * Add the following code into the file `internsctl` present in `/bin` folder and save it.
 
@@ -151,7 +151,7 @@ Task_ Level1 Linux Module
      
      #
      
-⚡ **2. Creating function to get memory information of server through the command `internsctl memory getinfo`**
+## 2. Creating function to get memory information of server through the command `internsctl memory getinfo`**
    
    * Add the following code into the file `internsctl` present in `/bin` folder and save it.
    
@@ -167,7 +167,7 @@ Task_ Level1 Linux Module
 #
 
 #### Part 2 | Level Intermediate
-⚡ **1. Creating function to create a new user on server through the command `internsctl user create <username>`**
+## 1. Creating function to create a new user on server through the command `internsctl user create <username>`**
 
    * Add the following code into the file `internsctl` present in `/bin` folder and save it.
    
@@ -182,7 +182,7 @@ Task_ Level1 Linux Module
 
 #
 
-⚡ **2. Creating function to list all the regular users present on the server through the command `internsctl user list`**
+## 2. Creating function to list all the regular users present on the server through the command `internsctl user list`**
 
    * Add the following code into the file `internsctl` present in `/bin` folder and save it.
 
@@ -196,7 +196,7 @@ Task_ Level1 Linux Module
      <img src = "/linux_image/user_info_2.png">
      
 
-⚡ **3. Creating function to list all the users with sudo permissions on the server through the command `internsctl user list --sudo-only`**
+## 3. Creating function to list all the users with sudo permissions on the server through the command `internsctl user list --sudo-only`**
 
    * Add the following code into the file `internsctl` present in `/bin` folder and save it.
 
@@ -212,7 +212,7 @@ Task_ Level1 Linux Module
 #
 
 #### Part 3 | Advanced Level
-⚡ **1. Creating function to get some information about a file through the command `internsctl file getinfo <file-name>`**
+## 1. Creating function to get some information about a file through the command `internsctl file getinfo <file-name>`**
 
    * Add the following code into the file `internsctl` present in `/bin` folder and save it.
    
@@ -251,7 +251,7 @@ Task_ Level1 Linux Module
 
 #
 
-⚡ **2. Creating function to get specific information about a file through the command `internsctl file getinfo [options] <file-name>`**
+## 2. Creating function to get specific information about a file through the command `internsctl file getinfo [options] <file-name>`**
 
    * Add the following code into the file `internsctl` present in `/bin` folder and save it.
    
