@@ -34,7 +34,7 @@ Task_ Level1 Linux Module
     >
     > In this case it will be : **touch internsctl.1**
     
-    <img src = "/images/img_2.png">
+
 - *Step 3 :*    
   * Now run `nano internsctl.1` to edit the source file in nano text editor. Copy and paste the following script into the source file or write it from yourself and save it.
     ```
@@ -113,7 +113,7 @@ Task_ Level1 Linux Module
       ```
    * Follwing is the output of `internsctl --help`.\
    \
-     <img src = "/images/img_4.png">
+     <img src = "/images/--help.png">
    
 #
     
@@ -130,7 +130,7 @@ Task_ Level1 Linux Module
       ```
    * Follwing is the output of `internsctl --version`.\
    \
-     <img src = "/images/img_5.png">  
+     <img src = "/images/--version.png">  
      
 #
 
@@ -147,7 +147,7 @@ Task_ Level1 Linux Module
       ```
    * Follwing is the output of `internsctl cpu getinfo`.\
    \
-     <img src = "/images/img_6.png">
+     <img src = "/images/cpu getinfo.png">
      
      #
      
@@ -162,7 +162,7 @@ Task_ Level1 Linux Module
       ```
    * Follwing is the output of `internsctl memory getinfo`.\
    \
-     <img src = "/images/img_7.png">
+     <img src = "/images/internsctl memory getinfo.png">
      
 #
 
@@ -176,9 +176,9 @@ Task_ Level1 Linux Module
 		sudo adduser $3
       }
       ```
-   * Follwing is how we create an user called "xyz" on our server through `internsctl user create xyz`.\
+   * Follwing is how we create an user called "xenonstack" on our server through `internsctl user create xenonstack`.\
    \
-     <img src = "/images/img_8.png">
+     <img src = "/images/internsctl user create xenonstack.png">
 
 #
 
@@ -193,7 +193,7 @@ Task_ Level1 Linux Module
       ```
    * Follwing is the output of `internsctl user list`, listing all the regular users present on the server.\
    \
-     <img src = "/images/img_9.png">
+     <img src = "/images/user info 2.png">
      
 
 ⚡ **3. Creating function to list all the users with sudo permissions on the server through the command `internsctl user list --sudo-only`**
@@ -207,7 +207,7 @@ Task_ Level1 Linux Module
       ```
    * Follwing is the output of `internsctl user list --sudo-only`, listing all the users with sudo permissions on the server.\
    \
-     <img src = "/images/img_10.png">
+     <img src = "/images/internsctl user list --sudo-only.png">
 
 #
 
